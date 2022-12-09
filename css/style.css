@@ -38,12 +38,14 @@ body {
 }
 .menu-item {
     margin-right: 115px;
+    border-bottom: 2px solid transparent;
 }
 .menu-item a {
     text-decoration: none;
 
     color: #030305;
     font-size: 15px;
+
 }
 .menu-item:hover {
     border-bottom: 2px solid black;
@@ -53,6 +55,7 @@ body {
     background-position: center;
     background-size: cover;
     padding: 104px 0 154px 0px;
+    background-repeat: no-repeat;
 }
 
 main-info {
@@ -135,7 +138,7 @@ main-info {
     text-align: center;
     margin-top: 40px;
 }
-.car-item-image:hover img {
+.car-item-img:hover img {
     transform: scale(1.1);
 }
 .car-item-img img {
