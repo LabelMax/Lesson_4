@@ -31,3 +31,4 @@ document.addEventListener("DOMContentLoaded", function () {
         elem.style.backgroundPositionX = '0' + (0.6 * window.pageYOffset) + 'px';
     })
 });
+

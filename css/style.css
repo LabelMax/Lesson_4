@@ -15,7 +15,7 @@ body {
     margin: 0;
 }
 .conteiner {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0px auto;
 }
 .header {
@@ -137,13 +137,22 @@ main-info {
     max-width: 384px;
     text-align: center;
     margin-top: 40px;
+    transition: box-shadow .2s;
+    border-radius: 30px;
+    padding: 20px;
 }
-.car-item-img:hover img {
+
+.car-item:hover {
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+}
+
+.car-item:hover {
     transform: scale(1.1);
 }
-.car-item-img img {
+.car-item {
     vertical-align: bottom;
-    transition: all .3s;
+    transition: all .2s;
 }
 
 .car-item-title {
@@ -252,3 +261,4 @@ main-info {
     font-size: 15px;
     color: #030305;
 }
+
